@@ -17,10 +17,11 @@ const App = () => {
   }, []);
 
   //Adding the task functionalities
-  const addTask = (text) => {
+  const addTask = (text, setTime) => {
     const newTask = {
       id: Date.now(),
       text,
+      setTime,
     };
     setTodo(todo.unshift(newTask));
     localStorage.setItem("todos", JSON.stringify(todo));

@@ -96,3 +96,13 @@ nav {
     border-radius: 8px;
     width: fit-content;
 }
+
+#inputTime {
+    border-radius: 2px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+    padding-left: 2%;
+    overflow-wrap: anywhere;
+}

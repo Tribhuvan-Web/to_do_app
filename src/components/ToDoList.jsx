@@ -1,7 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 
-const ToDoList = ({ todo, deleteTask }) => {
+const ToDoList = ({ todo, deleteTask, time }) => {
   return (
     <div>
       <section className="todo-list">
