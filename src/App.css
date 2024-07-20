@@ -7,7 +7,7 @@
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    background: rgb(95, 95, 196);
+    background: #6a7562;
 }
 
 nav {
@@ -18,8 +18,8 @@ nav {
     padding: 20px 100px;
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    background-color: rgb(27, 203, 27);
+    color: rgb(250, 244, 244);
+    background-color: #afb796;
 }
 
 .todo-form, .todo-list {
